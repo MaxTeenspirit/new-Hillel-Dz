@@ -1,0 +1,49 @@
+body {
+  background-image: url(.//img/photo-1533035350251-aa8b8e208d95.jpeg);
+  background-size: contain;
+  margin-top: 20px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  background-image: url(.//img/242_dove-grey-dg.jpg);
+  box-shadow: 1px 1px 20px black;
+}
+
+#title {
+  color: antiquewhite;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 55px;
+  text-align: center;
+  letter-spacing: 20px;
+  margin-left: 2%;
+  text-shadow: 1px 1px 10px black;
+}
+
+#row {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#button {
+  position: absolute;
+  top: 80%;
+  left: 42%;
+  color: white;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px 10px black;
+  margin-left: 45%;
+  margin-top: 27px;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.6s;
+  &:hover {
+    color: rgb(202, 199, 199);
+    text-shadow: 10px 10px 20px black;
+    transition: 0.6s;
+  }
+}

@@ -1,0 +1,67 @@
+span {
+    margin: 0 auto;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+}
+
+#second_resource {
+    margin-left: 20%;
+    margin-top: -5%;
+}
+
+#third_resource {
+    margin-left: 40%;
+    margin-top: -5%;
+}
+
+.type {
+    text-align: center;
+}
+
+.resource_card {
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(img/haki.jpg);
+    background-size: cover;
+}
+
+.health, .stamina {
+    height: 10px;
+    margin: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.health {
+    background-color: red;
+    width: 10%;
+}
+
+.stamina {
+    background-color: rgb(244, 146, 41);
+    width: 10%;
+}
+
+.img {
+    width: 90px;
+    height: 90px;
+    border: 10px solid gray;
+    margin: 15% auto 0 auto;
+}
+
+#water {
+    background-image: url(img/ship.jpg)
+}
+
+#air {
+    background-image: url(img/plain.jpg)
+}
+
+#land {
+    background-image: url(img/soldier.jpg)
+}

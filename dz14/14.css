@@ -1,0 +1,126 @@
+body {
+    margin-top: 8%;
+    background-color: #154415;
+}
+.unit {
+    width: 250px;
+    height: 350px;
+    background-image: url(img/haki.jpg);
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 0;
+    box-shadow: 4px 2px 10px black, inset 2px 2px 5px white;
+    transition: .8s;
+}
+
+.gray {
+    opacity: 0.5;
+}
+
+.remove {
+    display: none;
+}
+
+.button_restore {
+    position: absolute;
+    top: 123px;
+    transition: 2s;
+}
+
+.untouch {
+    user-select: none;
+}
+
+.health_bar {
+    margin: 20px 5px 0 5px;
+    max-width: 95.5%;
+    height: 10px;
+    background-color: red;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: black 2px 2px 5px;
+    transition: .4s;
+}
+
+.stamina_bar {
+    margin: 10px 5px 0 5px;
+    max-width: 95.5%;
+    height: 10px;
+    background-color: orange;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: black 2px 2px 5px;
+    transition: .4s;
+}
+
+.type {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: black 3px 2px 3px;
+    user-select: none;
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    margin: 25px auto;
+    border: 5px solid darkolivegreen;
+    box-shadow: black 2px 2px 5px;
+}
+
+.air_img {
+    background-image: url(img/plain.jpg);
+}
+
+.land_img {
+    background-image: url(img/soldier.jpg);
+}
+
+.water_img {
+    background-image: url(img/ship.jpg);
+}
+
+.minus_health, .minus_stamina, .restore {
+    margin-top: 25px;
+    max-width: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.minus_health {
+    background-color: red;
+}
+
+.minus_stamina {
+    background-color: orange;
+}
+
+.restore {
+    background-color: lightseagreen;
+    transition: 1s;
+}
+
+.minus_stamina, .minus_health, .restore {
+    box-shadow: 2px 2px 5px black;
+    user-select: none;
+}
+
+.plus {
+    margin-top: -97%;
+    margin-left: -63%;
+    font-size: 35px;
+    color: white;
+    text-shadow: black 1px 1px 3px;
+}
+
+.minus {
+    margin-top: -97%;
+    margin-left: -33%;
+    font-size: 35px;
+    color: white;
+    text-shadow: black 1px 1px 3px;
+}
